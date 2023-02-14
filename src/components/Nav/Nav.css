@@ -1,0 +1,27 @@
+.nav{
+    background-color: rgb(48, 45, 95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1em 1em 2em 1em;
+}
+
+h2{
+    padding-bottom: 1em;
+    color: aliceblue;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+}
+.lis{
+    margin: 3em;
+    padding: 0.5em 1em;
+    background-color: rgb(40, 101, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+

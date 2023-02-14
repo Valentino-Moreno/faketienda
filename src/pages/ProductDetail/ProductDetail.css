@@ -1,0 +1,15 @@
+.ProductDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.tit{
+    color: black;
+    padding-top: 1em;
+    font-size: 2em;
+    padding-bottom: 0;
+}

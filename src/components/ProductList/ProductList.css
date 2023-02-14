@@ -1,0 +1,14 @@
+.contenedor{
+    display: flex;
+    max-width: 95%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 2em;
+}
+
+.contenedor-hijo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
