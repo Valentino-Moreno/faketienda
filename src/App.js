@@ -2,14 +2,17 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from './pages/Home/Home'
-import Contact from './pages/Contact/Contact'
-import About from './pages/About/About'
+import Category1 from './pages/Category1/Category1';
+import Category2 from './pages/Category2/Category2'
+import Category3 from './pages/Category3/Category3';
+import Category4 from './pages/Category4/Category4';
 import Error from './pages/Error/Error'
-import ProductDetail from './pages/ProductDetail/ProductDetail';
+import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer';
 import Nava from './components/Nav/Nav';
 
 
 import './App.css';
+
 
 function App() {
   return (
@@ -18,10 +21,12 @@ function App() {
       <Nava />
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/category1' element={<Category1/>} />
+        <Route path='/Category2' element={<Category2/>} />
+        <Route path='/category3' element={<Category3/>} />
+        <Route path='/Category4' element={<Category4/>} />
         <Route path='*' element={<Error/>} />
-        <Route path="/detail/:id" element={<ProductDetail />} />
+        <Route path="/item/:id" element={<ItemDetailContainer />} />
 
       </Routes>
     </Router>

@@ -7,8 +7,10 @@
      <h2>Logo</h2>
      <div className='navbar'>
      <Link className='lis' to='/'>Home</Link>
-     <Link className='lis'to='/about'>About</Link>
-     <Link className='lis'to='/contact'>Contact</Link>
+     <Link className='lis'to='/Category1'>Electronics</Link>
+     <Link className='lis'to='/Category2'>Jewelery</Link>
+     <Link className='lis'to='/Category3'>Men's clothing</Link>
+     <Link className='lis'to='/Category4'>Women's clothing</Link>
      </div>
      </div>
         

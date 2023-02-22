@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import axios from "axios";
 import ProductCard from '../../components/ProductCard/ProductCard'
-import './ProductDetail.css'
+import './ItemDetailContainer.css'
 
-const ProductDetail = () => {
+const ItemDetailContainer = () => {
 
     const [product, setProduct] = useState({});
     
@@ -25,4 +25,4 @@ const ProductDetail = () => {
   )
 }
 
-export default ProductDetail
+export default ItemDetailContainer;

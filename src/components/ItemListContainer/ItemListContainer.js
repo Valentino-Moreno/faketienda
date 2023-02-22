@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 import ProductCard from '../ProductCard/ProductCard'
-import '../ProductList/ProductList.css'
+import '../ItemListContainer/ItemListContainer.css'
 
-const ProductList = () => {
+const ItemListContainer = () => {
 
     const [products, setProducts] = useState([]);
 
@@ -20,7 +20,7 @@ const ProductList = () => {
         <div className='contenedor-hijo'>
       {products.map((product) => {
         return (
-          <Link to={`/detail/${product.id}`}>
+          <Link to={`/item/${product.id}`}>
             <ProductCard key={product.id} data={product} />
           </Link>
         );
@@ -30,4 +30,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ItemListContainer;
